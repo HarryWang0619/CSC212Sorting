@@ -27,9 +27,9 @@ public class RadixSortTest {
 		ListADT<Integer> output = RadixSort.sort(input);
 		
 		// For debugging:
-		// System.out.println(input);
-		// System.out.println(output);
-		// System.out.println(bubbled);
+		System.out.println(input);
+		System.out.println(output);
+		System.out.println(bubbled);
 
 		Assert.assertEquals(bubbled, output);
 	}
