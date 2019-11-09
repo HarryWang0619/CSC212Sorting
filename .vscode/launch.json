@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeSort",
+            "request": "launch",
+            "mainClass": "edu.smith.cs.csc212.sorting.MergeSort",
+            "projectName": "Sorting"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SelectionSort",
             "request": "launch",
             "mainClass": "edu.smith.cs.csc212.sorting.SelectionSort",
